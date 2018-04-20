@@ -1,5 +1,5 @@
 {
-  "name": "drupal/etsy_integration"
+  "name": "drupal/etsy_integration",
   "description": "Allows users to connect with their Etsy Shop.",
   "type": "drupal-module",
   "license": "MIT",
