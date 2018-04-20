@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains etsy_integration.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function etsy_integration_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the etsy_integration module.
+    case 'help.page.etsy_integration':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Etsy Integration') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function etsy_integration_theme() {
+  return [
+    'etsy_integration' => [
+      'render element' => 'children',
+    ],
+  ];
+}

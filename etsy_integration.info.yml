@@ -1,0 +1,6 @@
+name: Etsy Integration
+description: Do stuff with Etsy Shops.
+package: BG
+
+type: module
+core: 8.x
