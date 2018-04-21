@@ -2,7 +2,7 @@
   "name": "drupal/etsy_integration",
   "description": "Allows users to connect with their Etsy Shop.",
   "type": "drupal-module",
-  "license": "MIT",
+  "license": "GPL-2.0-or-later",
   "require" : {
     "inakiabt/etsy-php": ">=0.10"
   }
